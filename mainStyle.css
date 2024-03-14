@@ -1,0 +1,153 @@
+/*OSNOVA*/
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    font-weight: 400;
+    color: #85859B;
+    font-size: 18px;
+    padding: 0;
+}
+*::selection {
+    background-color: #DAD9FB;
+}
+
+html body header .menu770, .downMenu {
+    display: none;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+a {
+    all: unset;
+}
+
+header .header, .headerMainBlock, footer .footerInfo, main .materials, main .simple, main .products {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.button, .headerLink, .butIconMessenger {
+    cursor: pointer;
+}
+
+/*button*/
+html .button:hover {
+    color: white;
+    background-color: #7875FE;
+}
+
+html .button {
+    font-size: 20px;
+    color: #7875FE;
+    border: 1px solid #7875FE;
+    padding: 20px 8%;
+    background-color: white;
+}
+
+html .button:focus {
+    color: #7875FE;
+    background-color: #DAD9FB;
+    border: 1px solid #7875FE;
+}
+
+html .button:active {
+    color: white;
+    background-color: #4946B4;
+}
+
+footer .butIconMessenger:hover {
+    color: #DAD9FB;
+}
+
+footer .butIconMessenger:focus {
+    background-color: #7875FE;
+    border: #7875FE 2px solid;
+    border-radius: 2px;
+}
+
+footer .butIconMessenger:active {
+    fill: #7875FE;
+}
+
+svg {
+    width: 25px;
+    height: auto;
+    fill: white;
+}
+
+
+.headerMenu a:hover {
+    color: #7875FE;
+}
+
+.headerMenu a:focus {
+    color: #4C5866;
+    background-color: #DAD9FB;
+}
+
+.headerMenu a:active {
+    color: #4946B4;
+}
+
+
+.butSearchExit:hover path, .butSearch:hover path {
+    stroke: #7875FE;
+}
+
+.butSearchExit:hover path, .butSearch:hover path {
+    background-color: #DAD9FB;
+}
+
+.butSearchExit:hover path, .butSearch:hover path {
+    stroke: #4946B4;
+}
+
+.butExitInput:hover circle {
+    fill: #7875FE;
+}
+
+.butExitInput:hover path {
+    stroke: #FFFFFF;
+}
+
+.butExitInput:focus circle {
+    stroke: #7875FE;
+}
+
+.butExitInput:focus path {
+    stroke: #DAD9FB;
+}
+
+.butExitInput:active circle {
+    fill: #4946B4;
+}
+
+.butExitInput:active path {
+    stroke: #FFFFFF;
+}
+
+html .headerLink:hover {
+    color: #7875FE;
+}
+
+html .headerLink:focus {
+    background-color: #DAD9FB;
+}
+
+html .headerLink:active {
+    color: #4946B4;
+}
+
+.product .butAbout:hover {
+    color: #4946B4;
+}
+
+.product .butAbout:focus {
+    background-color: #DAD9FB;
+}
+
+.product .butAbout:active {
+    color: #4946B4;
+}

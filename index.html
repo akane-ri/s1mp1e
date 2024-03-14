@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="akane|olia">
+    <title>simple</title>
+    <link rel="icon" href="recourses/favicon.svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap');
+    </style>
+    <link rel="stylesheet" href="mainStyle.css">
+    <link rel="stylesheet" href="headerStyle.css">
+    <link rel="stylesheet" href="footerStyle.css">
+    <link rel="stylesheet" href="mainBlockStyle.css">
+    <link rel="stylesheet" href="adaptiveStyle.css">
+
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="logoSimple" src="recourses/logo_simple.svg" alt="Логотип">
+            <div class="downMenu" id="downMenu">
+                <svg class="butSearch" onclick="downMenuInVisible()" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.75 6.75C6.94891 6.55109 7.2187 6.43934 7.5 6.43934C7.7813 6.43934 8.05109 6.55109 8.25 6.75L23.25 21.75C23.4489 21.9489 23.5606 22.2187 23.5606 22.5C23.5606 22.7813 23.4489 23.0511 23.25 23.25C23.0511 23.4489 22.7813 23.5606 22.5 23.5606C22.2187 23.5606 21.9489 23.4489 21.75 23.25L6.75 8.25C6.55109 8.05109 6.43934 7.7813 6.43934 7.5C6.43934 7.21869 6.55109 6.94891 6.75 6.75Z" fill="#4C5866"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M23.25 6.75C23.4489 6.94891 23.5607 7.2187 23.5607 7.5C23.5607 7.7813 23.4489 8.05109 23.25 8.25L8.25001 23.25C8.0511 23.4489 7.78132 23.5606 7.50001 23.5606C7.21871 23.5606 6.94893 23.4489 6.75002 23.25C6.55111 23.0511 6.43936 22.7813 6.43936 22.5C6.43936 22.2187 6.5511 21.9489 6.75002 21.75L21.75 6.75C21.9489 6.55109 22.2187 6.43934 22.5 6.43934C22.7813 6.43934 23.0511 6.55109 23.25 6.75Z" fill="#4C5866"/>
+                </svg>
+                <p class="headerLink" onclick="downMenuInVisible();"><a href="#catalog">Продукция</a></p>
+                <p class="headerLink" onclick="downMenuInVisible();"><a href="#materials">Материалы</a></p>
+                <p class="headerLink" onclick="downMenuInVisible();"><a href="#aboutUs">О нас</a></p>
+                <p class="headerLink" onclick="downMenuInVisible();"><a href="#contact">Контакты</a></p>
+            </div>
+            <div class="mobileDiv">
+
+            <svg class="menu butSearch" onclick="downMenuVisible();" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.6875 21.5625C4.6875 21.3139 4.78627 21.0754 4.96209 20.8996C5.1379 20.7238 5.37636 20.625 5.625 20.625H24.375C24.6236 20.625 24.8621 20.7238 25.0379 20.8996C25.2137 21.0754 25.3125 21.3139 25.3125 21.5625C25.3125 21.8111 25.2137 22.0496 25.0379 22.2254C24.8621 22.4012 24.6236 22.5 24.375 22.5H5.625C5.37636 22.5 5.1379 22.4012 4.96209 22.2254C4.78627 22.0496 4.6875 21.8111 4.6875 21.5625ZM4.6875 14.0625C4.6875 13.8139 4.78627 13.5754 4.96209 13.3996C5.1379 13.2238 5.37636 13.125 5.625 13.125H24.375C24.6236 13.125 24.8621 13.2238 25.0379 13.3996C25.2137 13.5754 25.3125 13.8139 25.3125 14.0625C25.3125 14.3111 25.2137 14.5496 25.0379 14.7254C24.8621 14.9012 24.6236 15 24.375 15H5.625C5.37636 15 5.1379 14.9012 4.96209 14.7254C4.78627 14.5496 4.6875 14.3111 4.6875 14.0625ZM4.6875 6.5625C4.6875 6.31386 4.78627 6.0754 4.96209 5.89959C5.1379 5.72377 5.37636 5.625 5.625 5.625H24.375C24.6236 5.625 24.8621 5.72377 25.0379 5.89959C25.2137 6.0754 25.3125 6.31386 25.3125 6.5625C25.3125 6.81114 25.2137 7.0496 25.0379 7.22541C24.8621 7.40123 24.6236 7.5 24.375 7.5H5.625C5.37636 7.5 5.1379 7.40123 4.96209 7.22541C4.78627 7.0496 4.6875 6.81114 4.6875 6.5625Z" fill="#4C5866"/>
+            </svg>
+            <div class="headerMenu">
+                <div class="menu1440">
+                    <p class="headerLink"><a href="#catalog">Продукция</a></p>
+                    <p class="headerLink"><a href="#materials">Материалы</a></p>
+                    <p class="headerLink"><a href="#aboutUs">О нас</a></p>
+                    <p class="headerLink"><a href="#contact">Контакты</a></p>
+                </div>
+                <svg onclick="inputVisible();" class="butSearch" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_496)">
+                        <path d="M13 19C8.58175 19 5.00003 15.4183 5.00003 11C5.00003 6.58172 8.58175 3 13 3C17.4183 3 21 6.58172 21 11C21 15.4183 17.4183 19 13 19Z" stroke="#4C5866" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2.99998 20.9999L7.34998 16.6499" stroke="#4C5866" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1_496">
+                            <rect width="24" height="24" fill="white" transform="matrix(-1 0 0 1 24 0)"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+
+                <label for="inputSearch"></label><input id="inputSearch" class="inputSearch" type="text" placeholder="Найти" hidden="hidden">
+
+                <svg id="exitInput" class="butExitInput" display="none" onclick="inputInvisible();" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="8" cy="8" r="8" fill="#D1D1E5"/>
+                    <path d="M5.99961 10.35L10.3496 6" stroke="#4C5866" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10.35 10.35L6 6" stroke="#4C5866" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+                <svg class="butSearchExit" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_497)">
+                        <path d="M15 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H15" stroke="#4C5866" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M10 17L15 12L10 7" stroke="#4C5866" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M15 12H3" stroke="#4C5866" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1_497">
+                            <rect width="24" height="24" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </div>
+            </div>
+        </div>
+            <div>
+                <div class="menu770">
+                    <p class="headerLink"><a href="#catalog">Продукция</a></p>
+                    <p class="headerLink"><a href="#materials">Материалы</a></p>
+                    <p class="headerLink"><a href="#aboutUs">О нас</a></p>
+                    <p class="headerLink"><a href="#contact">Контакты</a></p>
+                </div>
+            </div>
+    </header>
+
+
+    <div class="headerMainBlock">
+        <p>Простые вещи.<br>Из бумаги</p>
+        <p>Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал
+                с минеральными добавками. </p>
+        <a href="#catalog"><button class="button">Каталог</button></a>
+    </div>
+    <main>
+
+        <div class="materials" id="materials">
+            <div class="materialsV">
+                <div class="materialV">
+                    <img src="recourses/imageProducts/v1.svg" alt="v1">
+                    <div>
+                        <p class="materialVHeader">V.1</p>
+                        <p>Результат вашего обучения</p>
+                    </div>
+                </div>
+                <div class="materialV">
+                    <img src="recourses/imageProducts/v2.svg" alt="v2">
+                    <div>
+                        <p class="materialVHeader">V.2</p>
+                        <p>Результат вашего обучения</p>
+                    </div>
+                </div>
+                <div class="materialV">
+                    <img src="recourses/imageProducts/v3.svg" alt="v3">
+                    <div>
+                        <p class="materialVHeader">V.3</p>
+                        <p>Результат вашего обучения</p>
+                    </div>
+                </div>
+            </div>
+            <div class="materialBigBlock">
+                <img src="recourses/imageProducts/materialsMain.svg" alt="mainMaterial">
+                <div class="materialBigDescription">
+                    <p class="materialHead">Максимальная белизна</p>
+                    <p>Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые минеральные вещества: мел, тальк, каолин и др. Эта операция называется наполнением.</p>
+                    <p>Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="products" id="catalog">
+            <div class="product">
+                <img src="recourses/imageProducts/pack.svg" alt="">
+                <p class="productHeader">Упаковка</p>
+                <p class="tirage">Тираж: от 50 штук</p>
+                <p>Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки, изготовим форму под заказ.</p>
+                <button class="butAbout">Подробнее <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.7071 8.20711C21.0976 7.81658 21.0976 7.18342 20.7071 6.79289L14.3431 0.428932C13.9526 0.0384078 13.3195 0.0384078 12.9289 0.428932C12.5384 0.819457 12.5384 1.45262 12.9289 1.84315L18.5858 7.5L12.9289 13.1569C12.5384 13.5474 12.5384 14.1805 12.9289 14.5711C13.3195 14.9616 13.9526 14.9616 14.3431 14.5711L20.7071 8.20711ZM0 8.5H20V6.5H0V8.5Z" fill="#7875FE"/>
+                </svg>
+                </button>
+            </div>
+            <div class="product">
+                <img src="recourses/imageProducts/paket.svg" alt="">
+                <p class="productHeader">Пакеты</p>
+                <p class="tirage">Тираж: от 200 штук</p>
+                <p>С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон, крафт-бумага. Различные расцветки и дизайн.</p>
+                <button class="butAbout">Подробнее <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.7071 8.20711C21.0976 7.81658 21.0976 7.18342 20.7071 6.79289L14.3431 0.428932C13.9526 0.0384078 13.3195 0.0384078 12.9289 0.428932C12.5384 0.819457 12.5384 1.45262 12.9289 1.84315L18.5858 7.5L12.9289 13.1569C12.5384 13.5474 12.5384 14.1805 12.9289 14.5711C13.3195 14.9616 13.9526 14.9616 14.3431 14.5711L20.7071 8.20711ZM0 8.5H20V6.5H0V8.5Z" fill="#7875FE"/>
+                </svg>
+                </button>
+            </div>
+            <div class="product">
+                <img src="recourses/imageProducts/case.svg" alt="">
+                <p class="productHeader">Кейсы</p>
+                <p class="tirage">Тираж: от 30 штук</p>
+                <p>Подойдет для документов и других бумаг. Различные расцветки, размеры и плотность. Материал: прессованная бумага.</p>
+                <button class="butAbout butAboutArrow">Подробнее <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.7071 8.20711C21.0976 7.81658 21.0976 7.18342 20.7071 6.79289L14.3431 0.428932C13.9526 0.0384078 13.3195 0.0384078 12.9289 0.428932C12.5384 0.819457 12.5384 1.45262 12.9289 1.84315L18.5858 7.5L12.9289 13.1569C12.5384 13.5474 12.5384 14.1805 12.9289 14.5711C13.3195 14.9616 13.9526 14.9616 14.3431 14.5711L20.7071 8.20711ZM0 8.5H20V6.5H0V8.5Z" fill="#7875FE"/>
+                </svg>
+                </button>
+            </div>
+            <div class="product">
+                <img src="recourses/imageProducts/other.svg" alt="">
+                <p class="productHeader">Другие изделия</p>
+                <p class="tirage">Тираж: от 100 штук</p>
+                <p>Нестандартные упаковки, кейсы и другие изделия различных размеров и конфигураций. Изготовим в кратчайшие сроки.</p>
+                <button class="butAbout">Подробнее <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.7071 8.20711C21.0976 7.81658 21.0976 7.18342 20.7071 6.79289L14.3431 0.428932C13.9526 0.0384078 13.3195 0.0384078 12.9289 0.428932C12.5384 0.819457 12.5384 1.45262 12.9289 1.84315L18.5858 7.5L12.9289 13.1569C12.5384 13.5474 12.5384 14.1805 12.9289 14.5711C13.3195 14.9616 13.9526 14.9616 14.3431 14.5711L20.7071 8.20711ZM0 8.5H20V6.5H0V8.5Z" fill="#7875FE"/>
+                </svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="sponsors" id="aboutUs">
+            <img src="recourses/sponsors/hahnemuehle.svg" alt="sposor">
+            <img src="recourses/sponsors/canson.svg" alt="sposor">
+            <img src="recourses/sponsors/royal-talens.svg" alt="sposor">
+            <img src="recourses/sponsors/fabriano.svg" alt="sposor">
+        </div>
+
+        <div class="simple">
+            <img src="recourses/imageProducts/simpleSketchbook.svg" alt="" hidden="hidden" class="simpleSketchbookImg">
+            <div class="simpleDescription">
+                <p class="simpleHeader">Simple скетчбук</p>
+                <p>80 листов, твердая обложка, бумага  Fabriano 200 г/м². Подойдет и для графики и для акварели. Для самых смелых творческих замыслов!</p>
+                <button class="button">Купить</button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footerInfo" id="contact">
+            <img class="logoSimple" src="recourses/logo_simple_white.svg" alt="Логотип">
+            <div class="footerMessengers">
+                <svg class="butIconMessenger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <g> <path fill="none" d="M0 0h24v24H0z"/> <path d="M15.402 21v-6.966h2.333l.349-2.708h-2.682V9.598c0-.784.218-1.319 1.342-1.319h1.434V5.857a19.19 19.19 0 0 0-2.09-.107c-2.067 0-3.482 1.262-3.482 3.58v1.996h-2.338v2.708h2.338V21H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1h-4.598z"/> </g> </svg>
+                <svg class="butIconMessenger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <g> <path fill="none" d="M0 0h24v24H0z"/> <path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z"/> </g> </svg>
+                <svg class="butIconMessenger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><circle cx="128" cy="128" r="32"/><path d="M172,28H84A56,56,0,0,0,28,84v88a56,56,0,0,0,56,56h88a56,56,0,0,0,56-56V84A56,56,0,0,0,172,28ZM128,176a48,48,0,1,1,48-48A48,48,0,0,1,128,176Zm52-88a12,12,0,1,1,12-12A12,12,0,0,1,180,88Z"/></svg>
+                <svg class="butIconMessenger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>
+            </div>
+        </div>
+        <p class="copyright">SIMPLE ® 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

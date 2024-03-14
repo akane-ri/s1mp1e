@@ -1,0 +1,310 @@
+@media (max-width: 1170px) {
+
+/*FULL PADDING*/
+    header .header, .menu770, .headerMainBlock, footer .footerInfo, main .materials, main .simple, main .products, .sponsors {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+/*HEADER*/
+    html body header .menu770 {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #DDDDDD;
+    }
+
+    body header .header .menu1440 {
+        display: none;
+    }
+
+    .headerMainBlock {
+        background-size: 40%;
+    }
+
+    .headerMainBlock p:first-child {
+        font-size: 7vw;
+
+    }
+
+    .headerMainBlock p:nth-child(2) {
+        width: 60%;
+    }
+
+    .headerMainBlock .button {
+        width: 40%;
+    }
+
+/*SPONSORS*/
+
+    .sponsors img {
+        width: 23%;
+    }
+
+/*MATERIALS*/
+
+    main .materials .materialV {
+        flex-direction: column;
+    }
+
+    main .materials .materialsV {
+        gap: 5%;
+    }
+
+    main .materials .materialV {
+        width: 30%;
+    }
+
+    main .materialBigBlock .materialBigDescription {
+        flex-basis: 55%;
+    }
+
+    .materialBigBlock .materialHead {
+        font-size: 30px;
+        color: #666666;
+        word-wrap: break-word;
+        width: 90%;
+    }
+
+    main .materialBigBlock img{
+        width: 50%;
+    }
+
+/*PRODUCTS*/
+
+    main .products .product {
+        flex-basis: 48%;
+        padding-bottom: 5%;
+    }
+
+    main .products {
+        gap: 2%;
+    }
+
+/*SIMPLE*/
+    main .simple {
+        margin-right: 0;
+        padding-top: 0;
+        background-position: right center;
+        padding-bottom: 15%;
+    }
+
+    html main .simple .simpleDescription {
+        flex-basis: 50%;
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 570px) {
+
+/*MATERIALS*/
+    main .materials .materialV {
+        width: 30%;
+    }
+
+    main .materials .materialBigBlock {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    main .materials .materialBigBlock img {
+        width: 70%;
+    }
+
+    main .materials .materialBigBlock p:not(p:first-child) {
+        font-size: 16px;
+    }
+/*PRODUCTS*/
+    main .products .product .productHeader {
+        font-size: 24px;
+    }
+
+/*SPONSORS*/
+    .sponsors {
+        padding-top: 7%;
+    }
+
+    .sponsors img {
+        flex-basis: 48%;
+        margin-bottom: 4%;
+    }
+
+/*SIMPLE*/
+    main .simple {
+        background: none;
+        flex-direction: column;
+
+    }
+
+    .simpleSketchbookImg {
+        display: block;
+    }
+
+    html main .simple .simpleDescription .simpleHeader {
+        font-size: 24px;
+    }
+
+    html main .simple .simpleDescription .button {
+        width: 40%;
+        padding: 3% 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+/*HEADER*/
+
+    .headerMainBlock {
+        background: none;
+        margin: 0;
+        padding-top: 10%;
+    }
+
+    .headerMainBlock p:nth-child(2) {
+        width: 100%;
+        padding: 5% 0;
+    }
+
+    .headerMainBlock p:first-child {
+        font-size: 10vw;
+    }
+
+    html body .headerMainBlock  .button {
+        width: 55%;
+        padding: 4% 0;
+        margin-bottom: 2%;
+    }
+
+    html body header .menu770 {
+        display: none;
+    }
+
+    header .header .menu {
+        display: block;
+    }
+
+    html body header .header .mobileDiv {
+        width: 90%;
+        justify-content: space-between;
+        border-top: 1px solid #eaeaea;
+        padding: 3% 5%;
+    }
+
+    header .header .headerMenu {
+        flex-basis: 0;
+    }
+
+    header .header .butSearch {
+        margin-left: 0;
+    }
+
+    header .header {
+        flex-direction: column;
+        padding: 0;
+    }
+    header .header img {
+        padding: 2% 0;
+        width: 40%;
+    }
+
+/*MATERIALS*/
+
+    main .materials .materialsV {
+        flex-direction: column;
+        padding-top: 5%;
+    }
+
+    main .materials .materialsV p:nth-child(2){
+        width: 95%;
+    }
+
+    main .materials .materialV {
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        padding: 3% 0;
+    }
+
+    main .materials .materialBigBlock img {
+        width: 100%;
+    }
+
+    main .materials .materialBigBlock .materialBigDescription p:first-child {
+        font-size: 24px;
+    }
+
+/*PRODUCTS*/
+
+    main .products .product {
+        flex-basis: 100%;
+        margin-bottom: 8%;
+    }
+
+    main .products {
+        gap: 2%;
+    }
+
+    main .product .butAbout {
+        width: 40%;
+    }
+/*SPONSORS*/
+    .sponsors {
+        flex-wrap: nowrap;
+        gap: 5%;
+        overflow-x: scroll;
+    }
+
+    .sponsors img {
+        width: 50%;
+    }
+
+/*FOOTER*/
+    footer .footerInfo {
+        flex-direction: column;
+    }
+
+    footer .footerInfo .footerMessengers {
+        border-top: #626b78 1px solid;
+        width: 100%;
+        justify-content: center;
+    }
+
+    footer .footerInfo .logoSimple {
+        margin-bottom: 0;
+    }
+
+/*SIMPLE*/
+
+    html main .simple {
+        flex-direction: column;
+        background: none;
+        vertical-align: center;
+
+    }
+
+    html main .simple .simpleDescription .button {
+        width: 50%;
+    }
+
+    html main .simple .simpleHeader {
+        font-size: 24px;
+    }
+
+    html main .simple img {
+        display: block;
+        width: 80%;
+    }
+
+    .downMenu {
+        background-color: #ebebeb;
+        position: absolute;
+        width: 90%;
+        margin-top: 10%;
+        padding: 3% 5%;
+        height: 52%;
+    }
+
+    .downMenu *:not(*:first-child) {
+        margin-bottom: 15%;
+    }
+}

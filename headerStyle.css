@@ -1,0 +1,104 @@
+.header {
+    display: flex;
+    padding: 2% 0;
+    align-items: center;
+    border-bottom: #eaeaea solid 1px;
+}
+
+.headerMenu, .menu770 {
+    font-size: 20px;
+    color: #4C5866;
+    display: flex;
+    flex-basis: 90%;
+    justify-content: end;
+    white-space: nowrap;
+}
+
+.headerMenu .menu1440, .menu770 {
+    display: flex;
+}
+
+.headerMenu .menu1440 {
+    gap: 80px;
+}
+
+.menu {
+    display: none;
+}
+
+.headerMenu .butSearch {
+    margin-left: 60px;
+}
+
+.headerMenu .butSearchExit {
+    margin-left: 30px;
+}
+
+.butExitInput {
+    width: 15px;
+    border-bottom: #D1D1E5 1px solid;
+}
+
+.inputSearch {
+    border: none;
+    border-bottom: #D1D1E5 1px solid;
+    color: #4C5866;
+    font-size: 20px;
+    font-family: "Roboto", serif;
+    margin-left: 5px;
+    padding: 0;
+    width: 200px;
+
+}
+
+.inputSearch:focus {
+    outline: none;
+}
+
+.inputSearch::placeholder {
+    color: #D1D1E5;
+    font-family: "Roboto", serif;
+}
+
+.headerMenu div p {
+    margin: 0;
+    white-space: nowrap;
+}
+
+.logoSimple {
+    flex-basis: 10%;
+}
+
+/*
+блок с картинкой
+*/
+.headerMainBlock {
+    background-color: lightgrey;
+    background: url("recourses/imageProducts/simple_paper.png") no-repeat right top;
+    background-size: 45%;
+    margin-top: 4%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    margin-right: 8%;
+}
+
+.header .mobileDiv {
+    display: flex;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.headerMainBlock p:first-child {
+    font-size: 5vw;
+    color: #4C5866;
+    margin: 0;
+
+}
+
+.headerMainBlock p:nth-child(2) {
+    line-height: 27px;
+    margin: 3% 0;
+    width: 40%;
+}
