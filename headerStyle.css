@@ -1,8 +1,8 @@
 .header {
     display: flex;
-    padding: 2% 0;
+    padding: 1.9% 0;
     align-items: center;
-    border-bottom: #eaeaea solid 1px;
+    border-bottom: #e1e1e1 solid 1px;
 }
 
 .headerMenu, .menu770 {
@@ -19,7 +19,7 @@
 }
 
 .headerMenu .menu1440 {
-    gap: 80px;
+    gap: 60px;
 }
 
 .menu {
@@ -30,8 +30,8 @@
     margin-left: 60px;
 }
 
-.headerMenu .butSearchExit {
-    margin-left: 30px;
+.headerMenu .butExit {
+    margin-left: 28px;
 }
 
 .butExitInput {
@@ -69,19 +69,6 @@
     flex-basis: 10%;
 }
 
-/*
-блок с картинкой
-*/
-.headerMainBlock {
-    background-color: lightgrey;
-    background: url("recourses/imageProducts/simple_paper.png") no-repeat right top;
-    background-size: 45%;
-    margin-top: 4%;
-    padding-top: 5%;
-    padding-bottom: 8%;
-    margin-right: 8%;
-}
-
 .header .mobileDiv {
     display: flex;
 }
@@ -90,15 +77,30 @@
     justify-content: space-between;
 }
 
-.headerMainBlock p:first-child {
-    font-size: 5vw;
-    color: #4C5866;
-    margin: 0;
-
+/*
+блок с картинкой
+*/
+.headerMainBlock {
+    background: url("recourses/imageProducts/simple_paper.png") no-repeat right top;
+    background-size: 44%;
+    margin-top: 4%;
+    padding-top: 5%;
+    padding-bottom: 9%;
+    margin-right: 11%;
 }
 
-.headerMainBlock p:nth-child(2) {
+
+.headerMainBlock .headerMainBlockHeader {
+    font-size: 60px;
+    color: #4C5866;
+    margin-bottom: 31px;
+    margin-top: 0;
+    line-height: 60px;
+    width: 100%;
+}
+
+.headerMainBlock p {
     line-height: 27px;
-    margin: 3% 0;
-    width: 40%;
+    margin-bottom: 31px;
+    width: 42%;
 }

@@ -6,23 +6,25 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 5% 0;
+    padding: 6.2% 0 91px;
 }
 
 .materials p {
-    margin: 1%;
+    margin: 0;
 }
 
 .materialsV {
     display: flex;
-    gap: 3%;
+    gap: 30px;
 }
 
 .materialV {
     display: flex;
     border-top: 1px solid #cacaca;
-    padding-top: 2%;
-    gap: 7%;
+    padding-top: 1.9%;
+    gap: 30px;
+    align-items: center;
+    line-height: 27px;
 }
 
 .materialV .materialVHeader {
@@ -32,24 +34,25 @@
 
 .materialBigBlock {
     display: flex;
-    margin-top: 7%;
-    justify-content: space-between;
-    align-items: center;
+    margin-top: 8%;
+    gap: 30px;
 }
 
 .materialBigBlock .materialBigDescription {
     flex-basis: 30%;
+    line-height: 30.6px;
 }
 
-.materialBigBlock .materialBigDescription p:not(p:first-child) {
-    line-height: 30px;
-    width: 95%;
-    margin-bottom: 5px;
+.materialBigBlock .materialBigDescription p:nth-child(2) {
+    margin-bottom: 10px;
 }
 
 .materialBigBlock .materialHead {
-    font-size: 35px;
+    font-size: 40px;
+    line-height: 40px;
     color: #666666;
+    padding-top: 60px;
+    padding-bottom: 16px;
 }
 
 /*products block*/
@@ -58,23 +61,30 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 5% 0;
+    padding: 92px 0 68px;
 }
 
 .product {
-    flex-basis: 23.5%;
+    flex-basis: 23%;
 }
 
-.product p {
-    margin: 7px;
+.productEdition {
+    margin-top: 8px;
 }
 
 .product .productHeader {
     font-size: 30px;
     color: #666666;
+    margin-top: 12px;
 }
 
-.product img:first-child{
+.product .productDescription {
+    line-height: 30.6px;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.product img:first-child {
     width: 100%
 }
 
@@ -87,30 +97,22 @@
     align-items: center;
     font-size: 20px;
     cursor: pointer;
-    margin: 5% 0 0 0;
+    margin: 21px 1px;
     padding: 0;
 }
-.product p:nth-child(4) {
-    line-height: 170%;
-    font-size: 16px;
-    width: 90%;
-}
 
-.product .tirage {
+.product .productEdition {
     color: #B5B5BD;
     font-size: 14px;
 }
 
-.product p {
-    margin: 3% 0 0 0;
-}
 
 
 /*sponsors block*/
 
 .sponsors {
     background-color: #ebebeb;
-    padding: 4% 10%;
+    padding: 6.3% 11.5%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -118,7 +120,7 @@
 }
 
 .sponsors img {
-    flex-basis: 23%;
+    flex-basis: 22%;
 }
 
 
@@ -126,10 +128,10 @@
 
 .simple {
     display: flex;
-    margin-top: 5%;
-    padding-bottom: 8%;
-    padding-top: 1%;
-    margin-right: 10vw;
+    margin-top: 6%;
+    padding-bottom: 7.9%;
+    padding-top: 22px;
+    margin-right: 172px;
     align-items: center;
     background: url("recourses/imageProducts/simpleSketchbook.svg") no-repeat right top;
     background-size: 50vw;
@@ -138,16 +140,12 @@
 
 .simpleDescription {
     flex-basis: 35%;
-    line-height: 30px;
 }
 
 .simpleDescription p:nth-child(2){
-    line-height: 180%;
     font-size: 18px;
-}
-
-.simpleDescription p {
-    margin: 4% 0;
+    line-height: 30.6px;
+    margin-top: 5px;
 }
 
 .simpleHeader {
@@ -155,9 +153,9 @@
     color: #666666;
 }
 .simple button {
-    width: 70%;
-    padding: 5% 10%;
-    margin-top: 2%;
+    width: 78%;
+    padding: 7% 10%;
+    margin-top: 30px;
 }
 
 

@@ -17,6 +17,7 @@ html body header .menu770, .downMenu {
 
 p {
     word-wrap: break-word;
+    margin: 0;
 }
 
 a {
@@ -24,8 +25,8 @@ a {
 }
 
 header .header, .headerMainBlock, footer .footerInfo, main .materials, main .simple, main .products {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 11.5%;
+    padding-right: 11.5%;
 }
 
 .button, .headerLink, .butIconMessenger {
@@ -41,8 +42,8 @@ html .button:hover {
 html .button {
     font-size: 20px;
     color: #7875FE;
-    border: 1px solid #7875FE;
-    padding: 20px 8%;
+    border: 0.5px solid #7875FE;
+    padding: 22.5px 9.5%;
     background-color: white;
 }
 
@@ -92,15 +93,15 @@ svg {
 }
 
 
-.butSearchExit:hover path, .butSearch:hover path {
+.butExit:hover path, .butSearch:hover path {
     stroke: #7875FE;
 }
 
-.butSearchExit:hover path, .butSearch:hover path {
+.butExit:hover path, .butSearch:hover path {
     background-color: #DAD9FB;
 }
 
-.butSearchExit:hover path, .butSearch:hover path {
+.butExit:hover path, .butSearch:hover path {
     stroke: #4946B4;
 }
 

@@ -1,57 +1,80 @@
+@media (min-width: 1441px) {
+    .headerMainBlock {
+        padding-bottom: 20%;
+    }
+}
+
 @media (max-width: 1170px) {
 
-/*FULL PADDING*/
+    /*FULL PADDING*/
     header .header, .menu770, .headerMainBlock, footer .footerInfo, main .materials, main .simple, main .products, .sponsors {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
-/*HEADER*/
+    /*HEADER*/
     html body header .menu770 {
         display: flex;
         justify-content: space-between;
-        border-bottom: 1px solid #DDDDDD;
+        border-bottom: 1px solid #e1e1e1;
+        padding-top: 17px;
+        padding-bottom: 19px;
     }
 
     body header .header .menu1440 {
         display: none;
     }
 
+    header .header {
+        padding-top: 10px;
+        padding-bottom: 9px;
+    }
+
     .headerMainBlock {
-        background-size: 40%;
+        background-size: 38%;
+        padding-top: 4px;
+        margin-right: 5%;
+        margin-top: 8%;
+        padding-bottom: 8.4%;
     }
 
-    .headerMainBlock p:first-child {
-        font-size: 7vw;
-
+    .headerMainBlock .headerMainBlockHeader {
+        font-size: 50px;
+        line-height: 50px;
     }
 
-    .headerMainBlock p:nth-child(2) {
+    .headerMainBlock p {
         width: 60%;
     }
 
     .headerMainBlock .button {
-        width: 40%;
+        width: 39%;
     }
 
-/*SPONSORS*/
-
-    .sponsors img {
-        width: 23%;
+    /*MATERIALS*/
+    main .materials {
+        padding-top: 60px;
+        padding-bottom: 32px;
     }
-
-/*MATERIALS*/
 
     main .materials .materialV {
         flex-direction: column;
+        align-items: flex-start;
+        padding-top: 20px;
+        gap: 0;
     }
 
     main .materials .materialsV {
-        gap: 5%;
+        gap: 4.8%;
     }
 
     main .materials .materialV {
         width: 30%;
+    }
+
+    main .materialBigBlock {
+        margin-top: 40px;
+        align-items: flex-start;
     }
 
     main .materialBigBlock .materialBigDescription {
@@ -62,25 +85,39 @@
         font-size: 30px;
         color: #666666;
         word-wrap: break-word;
-        width: 90%;
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 20px;
+        line-height: 30px;
     }
 
-    main .materialBigBlock img{
-        width: 50%;
+    main .materialBigBlock img {
+        width: 48%;
     }
 
-/*PRODUCTS*/
+    /*PRODUCTS*/
+    main .products {
+        gap: 2%;
+        padding-top: 60px;
+    }
 
     main .products .product {
         flex-basis: 48%;
         padding-bottom: 5%;
     }
 
-    main .products {
-        gap: 2%;
+    main .products .product img {
+        width: 100%;
+
     }
 
-/*SIMPLE*/
+
+    /*SPONSORS*/
+    .sponsors img {
+        width: 23%;
+    }
+
+    /*SIMPLE*/
     main .simple {
         margin-right: 0;
         padding-top: 0;
@@ -88,16 +125,48 @@
         padding-bottom: 15%;
     }
 
-    html main .simple .simpleDescription {
+    main .simple .simpleDescription {
         flex-basis: 50%;
-        font-size: 40px;
+        font-size: 18px;
+    }
+
+    main .simple .simpleDescription .simpleHeader {
+        font-size: 30px;
+    }
+
+    main .simple .simpleDescription .button {
+        width: 73%;
     }
 
 }
 
 @media (max-width: 570px) {
+/*FULL PADDING*/
+    header .header, .menu770, .headerMainBlock, footer .footerInfo, main .materials, main .simple, main .products, .sponsors {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
-/*MATERIALS*/
+    /*HEADER*/
+    .headerMainBlock {
+        margin-top: 17px;
+        margin-right: 21px;
+        padding-top: 40px;
+    }
+
+    .headerMainBlock .headerMainBlockHeader {
+        font-size: 38px;
+        line-height: 38px;
+        margin-bottom: 20px;
+    }
+
+    .headerMainBlock {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    /*MATERIALS*/
     main .materials .materialV {
         width: 30%;
     }
@@ -108,18 +177,23 @@
     }
 
     main .materials .materialBigBlock img {
-        width: 70%;
+        width: 65%;
     }
 
-    main .materials .materialBigBlock p:not(p:first-child) {
+    main .materials .materialBigBlock p {
         font-size: 16px;
     }
-/*PRODUCTS*/
+
+    main .materials .materialBigBlock .materialHead {
+        font-size: 24px;
+    }
+
+    /*PRODUCTS*/
     main .products .product .productHeader {
         font-size: 24px;
     }
 
-/*SPONSORS*/
+    /*SPONSORS*/
     .sponsors {
         padding-top: 7%;
     }
@@ -129,7 +203,7 @@
         margin-bottom: 4%;
     }
 
-/*SIMPLE*/
+    /*SIMPLE*/
     main .simple {
         background: none;
         flex-direction: column;
@@ -150,29 +224,45 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 510px) {
 
 /*HEADER*/
+    header .header .mobileDiv {
+        justify-content: space-between;
+        border-top: 1px solid #eaeaea;
+        padding: 15px 15px;
+        width: 93%;
+    }
+
+    .header .logoSimple {
+        width: 44%;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
 
     .headerMainBlock {
         background: none;
         margin: 0;
-        padding-top: 10%;
+        padding-top: 50px;
     }
 
-    .headerMainBlock p:nth-child(2) {
+    .headerMainBlock p {
+        font-size: 14px;
+        line-height: 21px;
         width: 100%;
-        padding: 5% 0;
+        margin-bottom: 21px;
     }
 
-    .headerMainBlock p:first-child {
-        font-size: 10vw;
+    .headerMainBlock .headerMainBlockHeader {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 15px;
     }
 
-    html body .headerMainBlock  .button {
-        width: 55%;
+    html body .headerMainBlock .button {
+        width: 50%;
         padding: 4% 0;
-        margin-bottom: 2%;
+        margin-bottom: 24px;
     }
 
     html body header .menu770 {
@@ -181,13 +271,6 @@
 
     header .header .menu {
         display: block;
-    }
-
-    html body header .header .mobileDiv {
-        width: 90%;
-        justify-content: space-between;
-        border-top: 1px solid #eaeaea;
-        padding: 3% 5%;
     }
 
     header .header .headerMenu {
@@ -202,6 +285,7 @@
         flex-direction: column;
         padding: 0;
     }
+
     header .header img {
         padding: 2% 0;
         width: 40%;
@@ -209,77 +293,89 @@
 
 /*MATERIALS*/
 
-    main .materials .materialsV {
-        flex-direction: column;
-        padding-top: 5%;
+    main .materials {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
-    main .materials .materialsV p:nth-child(2){
-        width: 95%;
+    main .materials .materialsV {
+        flex-direction: column;
+    }
+
+    main .materials .materialsV img {
+        width: 45%;
+        margin-right: 27px;
+    }
+
+    main .materials .materialsV p {
+        font-size: 16px;
+        line-height: 24px;
     }
 
     main .materials .materialV {
         flex-direction: row;
         width: 100%;
         align-items: center;
-        padding: 3% 0;
+        padding: 18px 0 21px;
     }
 
     main .materials .materialBigBlock img {
         width: 100%;
     }
 
-    main .materials .materialBigBlock .materialBigDescription p:first-child {
+    main .materials .materialBigBlock {
+        gap: 15px;
+    }
+
+    main .materials .materialBigBlock .materialBigDescription {
+        line-height: 27.2px;
+        font-size: 16px;
+    }
+
+    main .materials .materialBigBlock .materialBigDescription .materialHead {
         font-size: 24px;
+        padding-bottom: 10px;
     }
 
 /*PRODUCTS*/
-
     main .products .product {
         flex-basis: 100%;
-        margin-bottom: 8%;
+        margin-bottom: 15px;
     }
 
     main .products {
         gap: 2%;
+        padding-bottom: 10px;
+    }
+
+    main .products .productDescription{
+        font-size: 16px;
+        line-height: 27.2px;
     }
 
     main .product .butAbout {
-        width: 40%;
+        width: 50%;
     }
+
 /*SPONSORS*/
     .sponsors {
         flex-wrap: nowrap;
-        gap: 5%;
+        gap: 25px;
         overflow-x: scroll;
+        padding: 60px 0 40px;
     }
 
     .sponsors img {
         width: 50%;
     }
 
-/*FOOTER*/
-    footer .footerInfo {
-        flex-direction: column;
-    }
-
-    footer .footerInfo .footerMessengers {
-        border-top: #626b78 1px solid;
-        width: 100%;
-        justify-content: center;
-    }
-
-    footer .footerInfo .logoSimple {
-        margin-bottom: 0;
-    }
 
 /*SIMPLE*/
-
     html main .simple {
         flex-direction: column;
         background: none;
         vertical-align: center;
-
+        padding-top: 40px;
     }
 
     html main .simple .simpleDescription .button {
@@ -292,7 +388,7 @@
 
     html main .simple img {
         display: block;
-        width: 80%;
+        width: 100%;
     }
 
     .downMenu {
@@ -307,4 +403,21 @@
     .downMenu *:not(*:first-child) {
         margin-bottom: 15%;
     }
+
+    /*FOOTER*/
+    footer .footerInfo {
+        flex-direction: column;
+    }
+
+    footer .footerInfo .footerMessengers {
+        border-top: #626b78 1px solid;
+        width: 100%;
+        justify-content: center;
+        padding-top: 15px;
+    }
+
+    footer .footerInfo .logoSimple {
+        margin-bottom: 20px;
+    }
 }
+
