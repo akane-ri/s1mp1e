@@ -11,7 +11,7 @@ body {
     background-color: #DAD9FB;
 }
 
-html body header .menu770, .downMenu {
+html body header .menu770, header .downMenu {
     display: none;
 }
 

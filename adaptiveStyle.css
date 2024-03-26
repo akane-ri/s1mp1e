@@ -222,6 +222,9 @@
         width: 40%;
         padding: 3% 0;
     }
+    header .header .downMenu {
+        display: none;
+    }
 }
 
 @media (max-width: 510px) {
@@ -229,9 +232,10 @@
 /*HEADER*/
     header .header .mobileDiv {
         justify-content: space-between;
+        align-content: center;
         border-top: 1px solid #eaeaea;
-        padding: 15px 15px;
-        width: 93%;
+        padding: 15px;
+        width: 90%;
     }
 
     .header .logoSimple {
@@ -291,6 +295,24 @@
         width: 40%;
     }
 
+    .downMenu {
+        background-color: #ebebeb;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 48px;
+        padding: 16px 16px 25px;
+    }
+
+    .downMenuLink {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .downMenu * {
+        margin-bottom: 25px;
+    }
 /*MATERIALS*/
 
     main .materials {
@@ -391,18 +413,6 @@
         width: 100%;
     }
 
-    .downMenu {
-        background-color: #ebebeb;
-        position: absolute;
-        width: 90%;
-        margin-top: 10%;
-        padding: 3% 5%;
-        height: 52%;
-    }
-
-    .downMenu *:not(*:first-child) {
-        margin-bottom: 15%;
-    }
 
     /*FOOTER*/
     footer .footerInfo {
